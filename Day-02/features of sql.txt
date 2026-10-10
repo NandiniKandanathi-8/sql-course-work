@@ -1,0 +1,40 @@
+SQL:
+-->standard programming language used to store, retrieve, manage, and manipulate data in relational databases. It allows users to create databases, insert records, update data, delete data, and retrieve information efficiently.
+Features Of SQL:
+-------------------
+- Data Retrieval :Retrieves data from one or more tables using the SELECT statement. 
+- Data Manipulation :Allows users to insert, update, and delete records.
+Commands: INSERT, UPDATE, DELETE.
+- Data definition : Creates, modifies, and deletes database objects like tables.
+Commands: CREATE, ALTER, DROP.
+- Easy to learn : Uses simple English-like commands such as SELECT, INSERT, UPDATE, and DELETE.
+- Data security : Controls user access and permissions.
+Commands: GRANT, REVOKE.
+- Transaction management : Ensures data consistency using transactions.
+Commands: COMMIT, ROLLBACK, SAVEPOINT.
+- Supports relationships :Maintains relationships between tables using primary keys and foreign keys.
+- Portable :Works with many database systems such as MySQL, PostgreSQL, Oracle, SQL Server, and SQLite with only minor differences. 
+SQL sub languages:
+-----------------
+1)DDL:
+-->Used to create and modify the structure of database objects.
+-->Commands: CREATE, ALTER, DROP, TRUNCATE
+2)DML:
+-->Used to add, change, and remove data from tables.
+-->Commands: INSERT, UPDATE, DELETE
+3)DQL:
+-->Used to retrieve data from the database.
+-->Command: SELECT
+4)DCL:
+-->Used to control user access and permissions.
+-->Commands: GRANT, REVOKE
+5)TCL:
+-->Used to manage transactions and maintain data consistency.
+-->Commands: COMMIT, ROLLBACK, SAVEPOINT
+Easy way to remember
+-----------------------
+DDL → Structure
+DML → Modify data
+DQL → Query/retrieve data
+DCL → Permissions
+TCL → Transactions
