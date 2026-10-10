@@ -1,0 +1,56 @@
+--------------------------MySql-------------------------
+-->Data: Data is a collection of raw facts, figures, observations, or values that have not yet been processed or organized to provide meaningful information.
+
+-->Types of data:
+structured data: data that is organized in a fixed format, usually in rows and columns, and follows a predefined schema.
+ex: MySQL tables,Excel
+Unstructured data: data that does not have a predefined structure or organized format.
+ex: Images, videos, audio
+Semi-structured : data does not follow a strict tabular structure but contains tags, keys, or other markers that organize the data.
+      ex:JSON, XML
+File management s/m : (features)
+----------------------------------
+create and delete files
+access and retrive it
+file organisation
+file manipulation
+file sharing and protection
+recovery backup manually
+Drawbacks of file management:
+-------------------------------
+data redundancy: same data stored in multiple files ex: flipkart
+data inconsistency :
+security : generally provide limited security and access control.
+backup and recovery :
+no proper data relation : difficult to establish relationships between data stored in different files.
+less flexibility and scalability
+-------------------DataBase Management system(DBMS)--------------------
+-->Database : structured collection of related data that allows data to be stored, accessed, managed, and updated efficiently.
+-->Management system  :(software tool) system used to organize, control, store, monitor, and manage resources or information efficiently to achieve specific goals.
+-->DBMS : is software that acts as an interface between users and a database, allowing users to efficiently and securely store, retrieve, update, and manage data.
+Building blocks:
+-----------------
+data : collcn of info
+record : particular row multiple related Tables form a Database.
+table : collection of related records organized into rows and columns. 
+database : multiple related tables forms a database
+features of dbms:
+-----------------
+data storage : Stores large amounts of data in an organized manner. 
+data retrieval : Allows users to quickly retrieve required data.
+data manipulation : allows inserting , deleting , updating 
+security and authentication : Protects data from unauthorized access. 
+backup & recovery : Recovers data in case of system failure or data loss. 
+concurrency : Manages multiple users accessing the database at the same time.
+Multiple User Support : Supports many users working with the database simultaneously.
+Types of DBMS:
+----------------
+RDBMS :   
+NoSQL :  network/graphs
+Hierarchial : tree structure
+Datamodels
+----------------
+hierarchial : Organizes data in a tree-like structure.
+network : Organizes data as a graph/network.
+Rdbms : Organizes data into tables (rows and columns).
+object oriented:Stores data as objects, similar to object-oriented programming.
